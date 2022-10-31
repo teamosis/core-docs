@@ -13,7 +13,7 @@
     "url": "https://github.com/themefisher/core-docs/issues"
   },
   "devDependencies": {
-    "@davidsneighbour/browserslist-config": "^4.0.12",
+    "@davidsneighbour/browserslist-config": "^4.0.20",
     "@davidsneighbour/remark-config": "*",
     "@davidsneighbour/standard-version-config": "*",
     "@davidsneighbour/stylelint-config": "*"
