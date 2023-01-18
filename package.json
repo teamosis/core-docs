@@ -10,7 +10,7 @@
     "url": "https://github.com/teamosis/core-docs/issues"
   },
   "devDependencies": {
-    "@davidsneighbour/browserslist-config": "^4.0.12",
+    "@davidsneighbour/browserslist-config": "^4.0.25",
     "@davidsneighbour/remark-config": "*",
     "@davidsneighbour/standard-version-config": "*",
     "@davidsneighbour/stylelint-config": "*"
