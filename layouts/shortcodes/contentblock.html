@@ -1,5 +1,5 @@
 {{ $replacements := split (index .Params 1) "," }}
-{{ $content := (site.GetPage (printf "%s/%s" "contentblocks/" (index .Params 0))).Content }}
+{{ $content := (site.GetPage (printf "%s/%s" "contentblocks" (index .Params 0))).Content }}
 {{ with $replacements }}
   {{ range . }}
     {{ $replace := split . ":" }}
@@ -14,5 +14,3 @@
     {{ $markdown }}
   {{ end }}
 {{ end }}
-
-
