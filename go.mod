@@ -3,6 +3,8 @@ module github.com/teamosis/core-docs
 go 1.18
 
 require (
-	github.com/gethugothemes/hugo-modules/seo-tools/google-tag-manager v0.0.0-20230731033118-be0c1c964f76 // indirect
-	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20003 // indirect
+	github.com/gethugothemes/hugo-modules/seo-tools/google-tag-manager v0.0.0-20240228105219-38c9f9c6e062 // indirect
+	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 // indirect
+	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
+	github.com/twbs/bootstrap v5.3.3+incompatible // indirect
 )
