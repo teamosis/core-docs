@@ -65,7 +65,7 @@
   {{ site.Params.custom_script | safeHTML }}
 
   <!-- google analytics -->
-  {{ if site.GoogleAnalytics }}
+  {{ if site.Config.Services.GoogleAnalytics.ID }}
   {{ template "_internal/google_analytics.html" . }}
   {{ end }}
 
