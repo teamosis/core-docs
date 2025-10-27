@@ -9,6 +9,6 @@
   </div>
   <div class="bws-content">
     <iframe sandbox="allow-same-origin allow-scripts allow-popups allow-forms" loading="lazy"
-      src="{{ .Get `demo` | safeURL }}/" title="Andromeda"></iframe>
+      src="{{ .Get `demo` | safeURL }}/" title="{{ .Get `title` | safeURL }}"></iframe>
   </div>
 </div>
